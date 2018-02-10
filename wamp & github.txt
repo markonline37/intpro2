@@ -1,3 +1,6 @@
+Wampserver - Wamp stands for Windows Apache MySQL PHP, it's a program that lets you run a server for testing/development of code
+that would normally require a configured web server to work.
+
 Installing and configuring of wampserver
 
 wampserver: http://www.wampserver.com/en/
@@ -32,3 +35,29 @@ It's all installed/configured now.
 You can access phpmyadmin through the system tray or the wamp splash screen
 
 Default login is username: root (with no password by default)
+
+
+
+Github - makes it far easier to collaborate on a project. Can be quite confusing at first but it's fairly simple when you get used to it.
+
+If you don't have an account already go to: https://github.com/ and create an account.
+
+Tell me your github username so I can add you as a collaborator, an email will be sent to you inviting you to join the repository.
+
+Download and install: https://desktop.github.com/ Login using the github account you just created.
+
+In github desktop click File, then Clone a repository, click the URL tab.
+
+Repository URL: https://github.com/markonline37/intpro2.git
+
+Set the local path to the folder that you created for the wamp server (mine is C:\wamp64\www\intpro2)
+
+Click Clone - takes a bit.
+
+Ok github is simple-ish to use: you may be better off googling how to use it exactly but I'll briefly describe it here.
+
+The github client monitors the folder for any changes that you make, these changes are logged and shown in the github client.
+
+There's a master branch which is the main branch. 
+You can create branches (branch -> New Branch) if new functionality is being developed.
+Changes you make to any branch
