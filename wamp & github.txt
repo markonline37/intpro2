@@ -36,7 +36,7 @@ You can access phpmyadmin through the system tray or the wamp splash screen
 
 Default login is username: root (with no password by default)
 
-
+------------------------------------------------------
 
 Github - makes it far easier to collaborate on a project. Can be quite confusing at first but it's fairly simple when you get used to it.
 
@@ -57,7 +57,19 @@ Click Clone - takes a bit.
 Ok github is simple-ish to use: you may be better off googling how to use it exactly but I'll briefly describe it here.
 
 The github client monitors the folder for any changes that you make, these changes are logged and shown in the github client.
+If you make any changes, a changes tab will be open on github desktop - 
+you need to give the changes a meaningful name (like: "Started login functionality", and there's an optional description that can be filled out)
+
+Changes are commited, which updates whatever branch you are working on.
+But changes are only shared with the rest of us when you push the changes (the tab saying push)
 
 There's a master branch which is the main branch. 
-You can create branches (branch -> New Branch) if new functionality is being developed.
-Changes you make to any branch
+So if we're working on something then we should be creating new branches:
+Branch -> New Branch, give it a meaningful name and then click the publish branch button
+
+Created branches can be merged with the master if the changes you are making are working properly and don't break functionality etc.
+
+Using branches ensures there's always a working master and we all have the same files, just remember to commit and push any changes and give
+everything a meaningful name. We can revert versions if something breaks etc.
+
+Whenever we logon on and decide to work, we just open github and all of our files should be synced.
