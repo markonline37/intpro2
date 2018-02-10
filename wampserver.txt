@@ -1,0 +1,34 @@
+Installing and configuring of wampserver
+
+wampserver: http://www.wampserver.com/en/
+Click the download link, there's an option to download directly at the end of the first paragraph.
+Download and install.
+It will ask you what browser and text editor you want to use as default during install I recommend changing both to something else.
+
+Once installed:
+In the system tray will be a big W icon, left click and select www directory.
+In the folder that opened create a new directory - I named mine: intpro2
+You'll be using this directory a lot so it may be worthwhile creating a shortcut for this folder
+    Right click the folder and select create shortcut, drag the shortcut wherever is easiest for you.
+	
+Open up the folder you created and right click the address bar and then select copy address as text.
+
+Left click the Wamp icon in the system tray again and select Localhost or open up your web browser and type in localhost.
+
+This is the Wamp splash page, at the bottom middle you should see the project you created earlier.
+Click Add a Virtual Host at the very bottom left
+    Give it a name
+	Paste in the absolute path that you copied earlier.
+	Click Start the creat... Button.
+	
+This time Right click the wamp icon in the system tray, hover over tools and select Restart DNS
+The Wamp icon changes colour then goes back to green.
+
+Now if you type in the name of your project into the browser (intpro2 for me) it will open the folder and treat it as a website.
+    There's nothing in there currently so it won't do anything.
+	
+It's all installed/configured now. 
+
+You can access phpmyadmin through the system tray or the wamp splash screen
+
+Default login is username: root (with no password by default)
